@@ -53,3 +53,10 @@ The most profound advantage of the Quaternion model is its **symmetrical archite
 ### Summary:
 
 **Quaternion is not just a storage engine; it is a new paradigm for distributed, versioned data.** It leverages a high-performance, append-only transaction log and revolutionary Static Search Tree indexing to provide extreme performance. Its symmetrical architecture fundamentally integrates client/edge capabilities, making it simpler, more resilient, and more powerful than traditional systems that rely on complex middleware like Couchbase Sync Gateway. This design provides a foundation that is intrinsically scalable, peer-to-peer capable, and offers a universally versioned data model.
+
+## Quick Start (Windows / Linux / macOS)
+
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/quaternion.git && cd quaternion
+```
