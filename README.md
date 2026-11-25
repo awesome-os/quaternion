@@ -60,3 +60,13 @@ The most profound advantage of the Quaternion model is its **symmetrical archite
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/quaternion.git && cd quaternion
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/quaternion@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/quaternion?from=repository://github.com/awesome-os/quaternion@main"
+```
